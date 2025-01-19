@@ -12,12 +12,14 @@
 .header{
     background-image: url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left, bottom right;   
+    background-position: top left, bottom right;
     background-color: #FFF8F3;
-    background-size: 62px, 600px; 
+    background-size: 62px, 500px;
     background-position: 25px 25px,right bottom;
-    background-clip: ;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 45px;
 }
 .nav-menu{
     display: flex;
@@ -25,6 +27,7 @@
     align-items: center;
     margin: 0px 134px;
     padding-top: 30px;
+    width: 1010px;
 }
 .letter-style{
     color: #FD6E0A;
@@ -64,11 +67,12 @@
     justify-content: space-between;
     margin: 0px 0px 0px 134px;
     align-items: center;
+    height: 400px;
+    width: 1100px;
 }
 
 .bennar-img img{
-    width: 391px;
-    margin-bottom: -4px;
+    width: 350px;
 }
 .bennar-title{
     color: #474747;
@@ -106,36 +110,36 @@
     padding: 13px 20px;
 }
 .about{
-    max-width: 763px;
     background-color: #FFF8F3;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 45px auto;
-    border-radius: 10px;
+    border-radius: 15px;
+    width: 850px;
+    height: 370px;
+    margin: 0 auto;
 }
 .abouted{
-    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 554px;
-    max-height: 288px;
     text-align: center;
-    margin: 55px 0px;
-    padding: 5px;
+    padding: 25px;
+    gap: 20px;
 }
 .about-title{
     font-weight: bold;
-    font-size: 21px;
+    font-size: 24px;
     color: #181818;
 }
 .about-description{
-    font-size: 12px;
+    font-size: 13px;
     color: #757575;
     padding: 10px;
+    line-height: 20px;
+    width: 600px;
 }
 .about-contact-container{
     display: flex;
@@ -152,4 +156,191 @@
     color: #181818;
     font-weight: bold;
     font-size: 13px;
+}
+
+/* card style start */
+.work-section{
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+flex-direction: column;
+
+width: 650px;
+
+margin: 0 auto;
+
+gap: 30px;
+}
+.work-desription-ber{
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+gap: 30px;
+
+text-align: center;
+}
+.work-title{
+
+font-weight: bold;
+
+color: #181818;
+
+font-size: 24px;
+}
+.work-description{
+
+font-size: 13px;
+
+color: #757575;
+
+line-height: 20px;
+}
+.work-card-ber{
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+width: 850px;
+
+gap: 15px;
+}
+.work-card{
+
+display: flex;
+
+flex-direction: column;
+
+align-items: start;
+
+gap: 20px;
+
+width: 150px;
+
+justify-content: flex-start;
+
+padding: 25px;
+
+background: #FFFFFF;
+
+box-shadow: 0px 0px 5px #00000029;
+
+border-radius: 10px;
+}
+
+.work-card-img{
+    
+width: 33px;
+}
+.work-card-titleber{
+    
+display: flex;
+    
+flex-direction: column;
+    
+align-items: start;
+    
+gap: 12px;
+    
+justify-content: center;
+}
+.work-card-title{
+
+font-size: 15px;
+
+color: #181818;
+}
+.work-card-description{
+
+color: #757575;
+
+font-size: 12px;
+
+line-height: 20px;
+}
+/* card style end */
+
+/* resume style start */
+.resume{
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+justify-content: center;
+
+gap: 50px;
+
+width: 850px;
+
+margin: 0 auto;
+}
+.resume-title{
+    font-size: 24px;
+    color: #181818;
+}
+.resume-container{
+
+display: flex;
+
+align-items: flex-start;
+
+justify-content: space-between;
+
+gap: 30px;
+}
+.resume-column{
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+gap: 15px;
+
+width: 410px;
+}
+.resume-column-title{
+color: #181818;
+font-size: 20px;
+}
+.experience{
+
+display: flex;
+
+flex-direction: column;
+
+align-items: start;
+
+justify-content: center;
+
+gap: 10px;
+}
+.experience-title{
+font-size: 17px;
+color: #181818;
+}
+.experience-sub-title{
+    font-size: 13px;
+    color: #757575;
+    font-weight: 600;
+}
+.experience-description{
+    color: #757575;
+    font-size: 11px;
+    line-height: 20px;
+    width: 310px;
 }
