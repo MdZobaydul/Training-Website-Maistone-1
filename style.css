@@ -30,23 +30,29 @@ input:focus{
 .header-section{
     background-image: url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat;
-    /* background-position: top left, bottom right; */
-    background-size: 61px, 533px;
-    background-position: 22px 25px, 685px 190px;
+    background-position: top left, bottom right;
+    background-size: 61px, 610px;
+    background-position: 22px 25px, 650px 190px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 45px;
     width: 1300px;
     margin: 0 auto;
+    align-items: center;
 }
 .nav-menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding-top: 30px;
     width: 1000px;
-    margin: 0 auto;
+}
+.nav-ber{
+    
+display: flex;
+    
+justify-content: space-between;
+    
+width: 930px;
+    
+align-items: center;
 }
 .letter-style{
     color: #FD6E0A;
@@ -85,7 +91,6 @@ input:focus{
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
     align-items: center;
     height: 400px;
     width: 1000px;
