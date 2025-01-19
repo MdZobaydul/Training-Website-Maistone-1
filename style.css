@@ -495,7 +495,7 @@ width: 310px;
 }
 /* footer style start */
 
-/* about responsiv start */
+
 @media screen and (max-width: 576px){
     .work-section{
         width: 385px;
@@ -513,5 +513,5 @@ width: 310px;
     .work-desription-ber{
 
     width: 100%;
-}
-}
+    }
+} 
