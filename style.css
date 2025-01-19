@@ -505,7 +505,8 @@ width: 310px;
         gap: 25px;
     }
     .work-description{
-        width: 360px;
+        width: 350px;
+        line-height: 20px;
     }
     .work-card{
         width: 55%;
