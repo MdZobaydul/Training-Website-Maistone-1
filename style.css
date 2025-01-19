@@ -26,6 +26,7 @@ input:focus{
 
 .header{
     background-color: #FFF8F3;
+    display: none;
 }
 .header-section{
     background-image: url(images/developer.png), url(images/header_bg.png);
@@ -148,6 +149,7 @@ align-items: center;
     height: 370px;
     margin: 0 auto;
     margin-top: 70px;
+    display: none;
 }
 .abouted{
     display: flex;
@@ -261,6 +263,8 @@ gap: 20px;
 
 width: 150px;
 
+height: 220px;
+
 justify-content: flex-start;
 
 padding: 25px;
@@ -322,6 +326,7 @@ width: 850px;
 margin: 0 auto;
 
 margin-top: 70px;
+display: none;
 }
 .resume-title{
     font-size: 24px;
@@ -404,6 +409,7 @@ margin: 0 auto;
 width: 850px;
     
 padding: 50px;
+display: none;
 }
 .footer-connect{
 
@@ -488,3 +494,24 @@ width: 310px;
     padding: 10px 20px;
 }
 /* footer style start */
+
+/* about responsiv start */
+@media screen and (max-width: 576px){
+    .work-section{
+        width: 385px;
+    }
+    .work-card-ber{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .work-description{
+        width: 360px;
+    }
+    .work-card{
+        width: 55%;
+    }
+    .work-desription-ber{
+
+    width: 100%;
+}
+}
